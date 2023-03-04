@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mock-wp"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{include = "components"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pulumi = "^3.56.0"
+pulumi-aws = "^5.30.0"
+pulumi-random = "^4.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

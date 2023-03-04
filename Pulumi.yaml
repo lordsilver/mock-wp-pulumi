@@ -1,0 +1,4 @@
+name: mock-wp
+runtime:
+  name: python
+description: Deploys WordPress in ECS Fargate with RDS backend

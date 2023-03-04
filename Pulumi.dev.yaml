@@ -1,0 +1,4 @@
+config:
+  aws:region: eu-central-1
+  mock-wp:container_image: wordpress:6.1-php8.2-fpm
+  mock-wp:service_name: mock-wp
